@@ -1,0 +1,46 @@
+html {
+	background-color: white;
+}
+
+h1 {
+	color: white;
+	margin-left: 12;
+	margin-right:12;
+}
+
+h2 {
+ color: white;
+}
+ table {
+ 	border:  2px solid black;
+ }
+ table ,td{
+ 	border: 1px solid black;
+ }
+
+ header {
+ 	background-image: url("https://www.planwallpaper.com/static/images/518151-backgrounds_W3qVPu2.jpg");
+    height: 180px;
+    width : 1378px;
+    padding: 20px;
+    padding-left: 500px;
+
+ }
+ table {
+ 	font-size: 20px;
+ 
+
+ }
+ footer {
+ 	background-color: grey;
+ 	background-image: url("http://www.clker.com/cliparts/y/K/l/t/I/R/android-digital-d-wallpaper-hd-wallpapers-background-technology-picture-android-hd-wallpaper.svg");
+    color: white;
+ }
+  ol{
+  	font-weight: bold;
+  	font-size: 25px;
+  }
+
+  body{
+  	background-color: #008ECC;
+  }
