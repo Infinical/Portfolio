@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="prof.css">
 	<title>Profile</title>
-	<header>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body class="container">
+	<div class="container">
+<header>
 	<h1>CALVIN MOKUA</h1>
 <h2>Hello,welcome to <a href="https://www.linkedin.com/feed/" target="=_blank">calvin.com</a></h2>
 
 </header>
-</head>
-<body>
 
-<p>The software that i've worked with:
-<ol>
+<p class="list">The software that i've worked with:
+<ul class="list">
 	<li>Ruby</li>
 	<li>HTML</li>
 	<li>CSS</li>
 	<li>Javascript</li>
 	<li>Git</li>
-</ol>
+</ul>
+</p>
 <table>
 	<thead>
 		<tr>
@@ -49,24 +51,35 @@
 </tr>
 	</tbody>
 </table>
-</p>
-</body>
+
+</div>
+
 <footer>
 <form>
 	<h3>Contact Form</h3>
 	<p>Name
 		<input type="text" value="Name" name="Name">
 	</p>
+	<br>
 	<p>Email
 		<input type="email" value="Email" name="Email">
 	</p>
-	<p>Message
-		<textarea name ="Message" value= "Contact me "rows="5" cols="25"></textarea>
-	</p>
+	<br>
+	
+	<p class="m">Message</p>
+		<textarea  class="ta" 
+		name ="Message" value= "Contact me "rows="5" cols="25"></textarea>
+	
+
 	<p>
-		<input type="button" value="Submit">
+		<input class="submit" type="button" value="Submit">
 	</p>
+	
 </form>
 </footer>
-
+<footer class="footer">
+	
+	<p>Made by Infinical(@Calvo)2018</p>
+</footer>
+</body>
 </html>
