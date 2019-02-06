@@ -1,0 +1,78 @@
+* {
+	box-sizing: border-box;
+}
+html {
+	font-family: "Lucida Sans", sans-serif;
+}
+.main {
+	width: 100%;
+	float: left;
+}
+.header {
+height: 600px;
+text-align: center;
+position: relative;
+top:300px;
+}
+
+.list {
+	text-align: center;
+	font-family: "Roboto",sans-serif;
+	font-weight: 35px;
+	font-size: 18px;
+}
+.list ul{
+	list-style-type: none;
+	margin:  0;
+	padding: 0;
+	
+}
+#lang {
+	text-align: center;
+}
+.list li{
+	padding: 8px;
+	margin-bottom: 7px;
+	background-color: blue;
+	color: #ffffff;
+	box-shadow: 0 1px 3px white, 0 1px 2px black;
+}
+.table {
+	position: center;
+	text-align: center;
+
+}
+#table1{
+	position: relative;
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+    border-radius: 8px;	
+    font-size: 18px;
+    
+}
+#showTable {
+	text-align: center;
+	border-style: solid;
+	border-width: 3px;
+	border-color: white
+}
+.form {
+
+}
+@media only screen and (min-width: 600px) {
+	body {
+		color: white;
+		background-image: url("https://backgroundcheckall.com/wp-content/uploads/2017/12/best-background-images-for-professional-websites-4.jpg");
+		background-size: cover;
+
+
+}
+@media only screen and (max-width: 800px) {
+	body{
+		color: black;
+		background-image: url("https://i.ytimg.com/vi/uNCr7NdOJgw/maxresdefault.jpg");
+	}
+}
+
+

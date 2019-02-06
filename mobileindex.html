@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profile</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="mobilemain.css">
+</head>
+<body class="main">
+	<header class="header">
+		<h1>CALVIN MOKUA</h1>
+            <h2>Hello,welcome to <a href="https://www.linkedin.com/feed/" target="=_blank">calvin.com</a>
+            </h2>
+    </header>
+
+<p class="list">The languages that i've worked with:
+	<ul id="lang">
+		<li>Ruby</li>
+	    <li>HTML</li>
+	    <li>CSS</li>
+	    <li>Javascript</li>
+	    <li>Git</li>
+	</ul>
+</p>
+</div>
+<div class="table">
+<button id="table1" >Show Experience</button>
+
+<table id="showTable">
+	<thead>
+		<tr>
+			<th>Software</th>
+		<th>Time worked with</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+<td>Ruby</td>
+<td>2 yrs</td>
+</tr>
+<tr>
+	<td>Git</td>
+	<td>3 yrs</td>
+</tr>
+<tr>
+	<td>HTML</td>
+	<td>3 yrs</td>
+</tr>
+<tr>
+	<td>Css</td>
+	<td>2 yrs</td>
+</tr>
+<tr>
+	<td>Javascript</td>
+	<td>2 yrs</td>
+</tr>
+	</tbody>
+</table>
+<script>
+var button = document.getElementById("table1");
+var table = document.getElementById("showTable");
+
+function show(){
+	showTable.style.visibility = "visible";
+}
+function hide() {
+	showTable.style.visibility = "hidden";
+}
+
+function toggle() {
+	if (showTable.style.visibility === "hidden"){
+		show();
+	}else {
+		hide();
+	}
+}
+hide();
+button.addEventListener("click",toggle, false);
+</script>
+</div>
+
+<div class="form">
+<form id= "contact">
+	<h3>Contact Form</h3>
+	<p>Name</p>
+		<input type="text" value="Name" name="Name">
+	
+	<br>
+	<p>Email</p>
+		<input type="email" value="Email" name="Email">
+	
+	<br>
+	<p class="m">Message</p>
+		<textarea   
+		name ="Message" value= "Contact me "rows="5" cols="25"></textarea>
+	<p>
+		<input class="submit" type="button" value="Submit">
+	</p>
+	
+</form>
+</div>
+
+
+<div class="main-container">
+<footer >
+<p>Made by Calvo</p>
+</footer>
+</div>
+</body>
+</html>
